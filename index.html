@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML Animation to Video</title>
+<style>
+  body { margin: 0; font: 16px/1.6 system-ui, sans-serif; color: #efe6ff; background: radial-gradient(circle at 80% 0%, #5b1fa8, #1a0836 55%, #090314); min-height: 100vh; }
+  main { max-width: 1080px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.05; margin: 0 0 12px; background: linear-gradient(90deg, #b579ff, #e855c3, #7fe3ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { max-width: 680px; color: #d9c2ff; margin: 0 0 28px; }
+  video { width: 100%; border-radius: 16px; box-shadow: 0 0 0 2px #993ff5, 0 20px 60px #993ff566; background: #000; }
+  a { color: #7fe3ff; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Video "Recording" from HTML Page</h1>
+  <p class="lede">A 60-second HTML animation rendered to MP4 headlessly, frame by frame from explicit timestamps rather than real-time capture. Compare with the <a href="www/index.html">live HTML version</a>.</p>
+  <video controls loop muted playsinline preload="metadata" src="docs/preview.mp4"></video>
+</main>
+</body>
+</html>

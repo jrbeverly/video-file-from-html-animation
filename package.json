@@ -1,0 +1,11 @@
+{
+  "name": "video-file-from-html-animation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "24.37.5"
+  }
+}
